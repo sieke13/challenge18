@@ -19,7 +19,7 @@ you can have your account login search books and save in your account!
 npm i on all folder npm run develop or visit https://challenge18-main.onrender.com/
 
 ## Usage
-had a library of your must read books
+register and search your favorites or must read books
 
 ## Contributing
 my teachers google special thanks to erik hoverstein and andrea mr
