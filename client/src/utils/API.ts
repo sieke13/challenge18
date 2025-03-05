@@ -1,7 +1,6 @@
 import type { User } from '../models/User.js';
 import type { Book } from '../models/Book.js';
 
-// route to get logged in user's info (needs the token)
 export const getMe = (token: string) => {
   return fetch('/api/users/me', {
     headers: {
@@ -31,7 +30,6 @@ export const loginUser = (userData: User) => {
   });
 };
 
-// save book data for a logged in user
 export const saveBook = (bookData: Book, token: string) => {
   return fetch('/api/users', {
     method: 'PUT',
@@ -43,7 +41,6 @@ export const saveBook = (bookData: Book, token: string) => {
   });
 };
 
-// remove saved book data for a logged in user
 export const deleteBook = (bookId: string, token: string) => {
   return fetch(`/api/users/books/${bookId}`, {
     method: 'DELETE',
@@ -53,8 +50,6 @@ export const deleteBook = (bookId: string, token: string) => {
   });
 };
 
-// make a search to google books api
-// https://www.googleapis.com/books/v1/volumes?q=harry+potter
 export const searchGoogleBooks = (query: string) => {
   return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
 };
