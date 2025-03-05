@@ -16,7 +16,7 @@ you can have your account login search books and save in your account!
 - [Questions](#questions)
 
 ## Installation
-npm i on all folder npm run develop or visit https://module-18.onrender.com/
+npm i on all folder npm run develop or visit https://challenge18-main.onrender.com/
 
 ## Usage
 had a library of your must read books
@@ -30,7 +30,7 @@ visiting the webpage
 ## Notes
 
 > [!NOTE]
-> https://module-18.onrender.com/
+> https://challenge18-main.onrender.com/
 
 > [!IMPORTANT]
 > <img width="1317" alt="ScreeN" src="https://github.com/sieke13/Module-18/blob/main/googlebooks1.jpg" />
